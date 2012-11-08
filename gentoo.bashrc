@@ -25,4 +25,4 @@ alias proxify_sgp='export http_proxy=http://proxy.sgp.hp.com:8080'
 
 # Git
 alias gitstat='git status'
-
+alias gitpull='git pull'
