@@ -23,3 +23,6 @@ fi
 alias proxify_atl='export http_proxy=http://web-proxy.atl.hp.com:8088'
 alias proxify_sgp='export http_proxy=http://proxy.sgp.hp.com:8080'
 
+# Git
+alias gitstat='git status'
+
