@@ -3,6 +3,7 @@
 # Quick commands
 alias ll="ls -l"
 alias la="ls -la"
+alias ls='ls -GFh'
 
 # MACPorts
 alias rmleftover="sudo rm -rf /opt/local/var/macports/build/*"
@@ -20,6 +21,10 @@ alias addalbum="xpcli de.thekid.dialog.cmd.AddAlbum"
 alias addcollection="xpcli de.thekid.dialog.cmd.AddCollection"
 alias addsingleshot="xpcli de.thekid.dialog.cmd.AddSingleShot"
 alias addimgstrip="xpcli de.thekid.dialog.cmd.AddImageStrip"
+
+# Bash colors
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
 
 ##
 # Your previous /Users/semprix/.bash_profile file was backed up as /Users/semprix/.bash_profile.macports-saved_2014-10-22_at_05:40:28
